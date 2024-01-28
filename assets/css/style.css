@@ -1,0 +1,93 @@
+body p{
+  margin: 0;  
+  padding: 0;
+}
+p{
+  font-size: 14px;
+}
+main{
+  display: flex;
+  border: 1px solid #E8EBE4;
+}
+section{
+  font-family: 'Roboto'; 
+  display: flex;
+  flex-direction: column;  
+  width: 23%;
+  min-height: 100vh;
+  border: 1px solid #E8EBE4;
+}
+article{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #E8EBE4;
+}
+.contprin{
+  display: flex;
+  align-items: center;
+  height: 80px;
+}
+.cont1{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; 
+  /* align-items: first baseline; */
+  margin-left: 1rem;
+}
+.nom{
+  font-size: 16px;
+  font-weight: 300;
+}
+.desc{
+  color: #828485;
+  font-size: 11px;
+}
+img{
+  margin: 5px;
+  margin-left: 1rem; 
+  border-radius: 50%;
+}
+.iconos{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 15px;
+}
+i{
+  margin-right: 15px;
+}
+.boton{
+  border: 1px solid #E8EBE4;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+.boton button{
+  background-color: #A491D2;
+  padding: 18px;
+  inline-size: 200px;
+  color: #E8EBE4;  
+  font-size: 16px;
+  /* font-family: 'Roboto'; */
+  border: 1px solid #CDC3E6;
+}
+aside{
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+}
+h1{
+  margin: 5px;
+  font-size: 45px;
+  font-weight: 400;
+}
+.letra{
+  font-family: 'Roboto';
+  font-size: 16px;
+  padding: 5px;
+  font-weight: 100;
+}
